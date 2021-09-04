@@ -1,0 +1,16 @@
+1. Working Tree
+2. Repository
+3. Commit...
+
+Git
+1. Stage - Index
+2. Distributed - Dagitilmis
+3. No locking machansim
+
+
+git init --> create a git repository
+git status 
+git log
+git commit -m "Message"
+git add *
+git checkout
