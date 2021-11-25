@@ -14,3 +14,5 @@ git log
 git commit -m "Message"
 git add *
 git checkout
+
+git filter-branch -f --prune-empty --index-filter "git rm -r --cached --ignore-unmatch ./file1" HEAD // delete commit history
